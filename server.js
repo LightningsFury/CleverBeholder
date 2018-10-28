@@ -354,4 +354,4 @@ client.on('message', async msg=> {
   client.on("warn", (e) => console.warn(e));
   client.on("debug", (e) => console.info(e));
 
-client.login('NTA1MDA3NTYyMTE5NDQ2NTI5.DrNUzQ.TxoExID0ASZFl7jyhSYNgHfavEk');
+client.login(process.env.TOKEN);
